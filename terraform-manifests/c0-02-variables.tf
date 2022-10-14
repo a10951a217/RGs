@@ -21,7 +21,7 @@ variable "subnets" {
     description = "Subnets details"
     type = map(string)
     default = {
-      "App-subnet" = "10.0.4.0/24"
+      "App-subnet" = "10.0.1.0/24"
       "DB-subnet" = "10.0.2.0/24"
       "Web-Subnet" = "10.0.3.0/24"
     }
